@@ -45,6 +45,15 @@ importers:
         specifier: ~5.4.3
         version: 5.4.3
 
+  packages/lambda:
+    devDependencies:
+      '@types/node':
+        specifier: 20.11.30
+        version: 20.11.30
+      typescript:
+        specifier: ~5.4.3
+        version: 5.4.3
+
 packages:
 
   /@ampproject/remapping@2.3.0:

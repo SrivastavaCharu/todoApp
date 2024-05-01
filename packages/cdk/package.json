@@ -1,5 +1,5 @@
 {
-  "name": "todo_app",
+  "name": "@todo_app/cdk",
   "version": "0.1.0",
   "bin": {
     "todo_app": "bin/todo_app.js"

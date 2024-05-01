@@ -12,7 +12,7 @@ export class TodoAppStack extends cdk.Stack {
     const toDoLambda = new cdk.aws_lambda_nodejs.NodejsFunction(this, "ToDoLambda",{
       runtime: aws_lambda.Runtime.NODEJS_20_X,
       architecture: aws_lambda.Architecture.ARM_64,
-      entry: "lib/src/todoFunc/index.ts"
+      entry: "../lambda/src/todoFunc/index.ts"
     })
 
     const toDoTable = new cdk.aws_dynamodb.Table(this, "ToDoTable",{
