@@ -22,7 +22,7 @@ export class TodoAppStack extends cdk.Stack {
       }
     })
 
-    const toDoAPI = new cdk.aws_apigateway.RestApi(this, "ToDoAPI")
+    // const toDoAPI = new cdk.aws_apigateway.RestApi(this, "ToDoAPI")
     
   }
 }
