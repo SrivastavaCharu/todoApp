@@ -1,7 +1,8 @@
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import {aws_lambda,
-        aws_dynamodb} from 'aws-cdk-lib'
+        aws_dynamodb,
+        } from 'aws-cdk-lib'
 // import * as sqs from 'aws-cdk-lib/aws-sqs';
 
 export class TodoAppStack extends cdk.Stack {
@@ -20,6 +21,8 @@ export class TodoAppStack extends cdk.Stack {
         type: aws_dynamodb.AttributeType.NUMBER
       }
     })
+
+    const toDoAPI = new cdk.aws_apigateway.RestApi(this, "ToDoAPI")
     
   }
 }
