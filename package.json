@@ -1,9 +1,11 @@
 {
-  "name": "todo_app",
-  "version": "0.1.0",
-  "scripts": {},
-  "devDependencies": {
-    "@biomejs/biome": "1.7.3"
-  },
-  "dependencies": {}
+	"name": "todo_app",
+	"version": "0.1.0",
+	"scripts": {
+		"lint": "pnpm biome check ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.7.3"
+	},
+	"dependencies": {}
 }
