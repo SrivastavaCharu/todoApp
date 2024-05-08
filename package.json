@@ -2,6 +2,8 @@
   "name": "todo_app",
   "version": "0.1.0",
   "scripts": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3"
+  },
   "dependencies": {}
 }
