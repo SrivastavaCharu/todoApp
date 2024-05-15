@@ -1,10 +1,12 @@
 {
 	"name": "@todo_app/lambda",
 	"version": "0.1.0",
-	"scripts": {},
+	"scripts": {
+		"test": "vitest"
+	},
 	"devDependencies": {
 		"@types/node": "20.11.30",
-		"typescript": "~5.4.3"
-	},
-	"dependencies": {}
+		"typescript": "~5.4.3",
+		"vitest": "^1.6.0"
+	}
 }
