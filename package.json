@@ -1,12 +1,12 @@
 {
-    "name": "todo_app",
-    "version": "0.1.0",
-    "scripts": {
-        "lint": "pnpm biome check .",
-        "test": "pnpm -r run test:ci"
-    },
-    "devDependencies": {
-        "@biomejs/biome": "1.7.3"
-    },
-    "dependencies": {}
+	"name": "todo_app",
+	"version": "0.1.0",
+	"scripts": {
+		"lint": "pnpm biome check .",
+		"test": "pnpm -r run test:ci"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.7.3"
+	},
+	"dependencies": {}
 }
