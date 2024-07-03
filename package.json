@@ -3,7 +3,8 @@
 	"version": "0.1.0",
 	"scripts": {
 		"lint": "pnpm biome check .",
-		"test": "pnpm -r run test:ci"
+		"test": "pnpm -r run test:ci",
+		"deploy:cdk": "pnpm run --filter=./packages/cdk cdk deploy"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.7.3"

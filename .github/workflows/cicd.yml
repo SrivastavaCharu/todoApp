@@ -5,7 +5,7 @@ on:
     branches:
       - main
 jobs:
-  cicd:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -43,3 +43,9 @@ jobs:
 
       - name: Test
         run: pnpm test
+
+  cd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        run: pnpm deploy 
