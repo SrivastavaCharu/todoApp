@@ -45,6 +45,7 @@ jobs:
         run: pnpm test
 
   cd:
+    needs: [ci]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
